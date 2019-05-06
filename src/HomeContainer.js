@@ -51,7 +51,7 @@ class HomeContainer extends Component {
                         <div className="skill-js">
                             <h2>JavaScript</h2>
                             <ul className="projects">
-                                <li>New*
+                                <li>*New*
                                 <a href="https://lourod1987.github.io/Final-Frontierv2/" title="Link to Final Frontier made with OO JS">
                                     <img src={finalFrontierPreview} alt="Preview of Final Frontier game"/>
                                 </a>Final&nbsp;Frontier
@@ -63,7 +63,7 @@ class HomeContainer extends Component {
                                     </a>Mythic&nbsp;Matching&nbsp;Game
                                 </li>
                                 <li>
-                                <a href="https://lourod1987.github.io/pixel-art" title="Link to Pixel Art Project made with jQuery">
+                                <a href="https://lourod1987.github.io/pixelart/" title="Link to Pixel Art Project made with jQuery">
                                     <img src={pixelPreview} alt="Preview of Pixel Art Maker project"/>
                                 </a>Pixel&nbsp;Art&nbsp;Project
                                 </li>
@@ -72,7 +72,7 @@ class HomeContainer extends Component {
                         <div className="skill-jquery">
                             <ul className="projects">
                                 <h2>React + Redux</h2>
-                                <li>New*
+                                <li>*New*
                                     <a href="https://techagg.netlify.com/" title="Link to TechAgg React + Redux App">
                                         <img src={techAggPreview} alt="Preview of TechAgg App"/>
                                     </a>TechAgg
