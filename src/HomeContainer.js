@@ -57,13 +57,8 @@ class HomeContainer extends Component {
                                 </a>Final&nbsp;Frontier
                                 </li>
                                 <li>
-                                <a href="https://lourod1987.github.io/typing-speed-test" title="Link to Typing Speed Test made with JS Example">
-                                    <img src={speedTestPreview} alt="Preview of Typing Speed Test project"/>
-                                </a>Typing&nbsp;Speed&nbsp;Test
-                                </li>
-                                <li>
                                 <h2>jQuery</h2>
-                                    <a href="https://lourod1987.github.io/mythic-matching" title="Link to Matching Game">
+                                    <a href="https://lourod1987.github.io/mythic-concentration/" title="Link to Matching Game">
                                         <img src={mythicPreview} alt="Preview of Pixel Art Maker project"/>
                                     </a>Mythic&nbsp;Matching&nbsp;Game
                                 </li>

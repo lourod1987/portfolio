@@ -134,7 +134,7 @@ main h3 {
   
   main .skillset {
     display: grid;
-    grid-template-rows: 470px 610px 1fr;
+    grid-template-rows: 730px 700px 1fr;
     grid-gap: 20px;
     justify-items: center;
   }
@@ -148,11 +148,11 @@ main h3 {
   }
   
   .skill-html {
-    grid-row-start: 2;
+    grid-row-start: 3;
   }
   
   .skill-js {
-    grid-row-start: 3;
+    grid-row-start: 2;
   }
   
   main div.about-me-text {
