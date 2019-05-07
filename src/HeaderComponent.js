@@ -7,9 +7,9 @@ class HeaderComponent extends Component {
         return (
             <div className="for-bg">
                     <header className="header">
-                        <a href="https://luisdev.netlify.com/" title="Link back to Home page through logo">
-                        <img src={logo} alt="Luis Rodriguez Fire Breathing Dragon site logo" id="logo"/>
-                        </a>
+                        <Link to="/">
+                            <img src={logo} alt="Luis Rodriguez Fire Breathing Dragon site logo" id="logo"/>
+                        </Link>
                         <h1 onClick={this.rand}>Luis A. Rodriguez III</h1>
                         <h2>Web Developer</h2>
                     </header>
