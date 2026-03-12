@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import HeaderComponent from './HeaderComponent';
 import FooterComponent from './FooterComponent';
-import collabPreview from './img/GwGPreview.jpg';
 // import speedTestPreview from './img/typingSpeedTestPreview.jpg';
 import finalFrontierPreview from './img/finalFrontierPreview.jpg';
 import mythicPreview from './img/mythicPreview.jpg';
