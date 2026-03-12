@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import HeaderComponent from './HeaderComponent';
 import FooterComponent from './FooterComponent';
 import collabPreview from './img/GwGPreview.jpg';
-import speedTestPreview from './img/typingSpeedTestPreview.jpg';
+// import speedTestPreview from './img/typingSpeedTestPreview.jpg';
 import finalFrontierPreview from './img/finalFrontierPreview.jpg';
 import mythicPreview from './img/mythicPreview.jpg';
 import pixelPreview from './img/pixelArtPreview.jpg';
@@ -73,18 +73,18 @@ class HomeContainer extends Component {
                             <ul className="projects">
                                 <h2>React + Redux</h2>
                                 <li>*New*
-                                    <a href="https://techagg.netlify.com/" title="Link to TechAgg React + Redux App">
+                                    <a href="https://techagg.netlify.app/" title="Link to TechAgg React + Redux App">
                                         <img src={techAggPreview} alt="Preview of TechAgg App"/>
                                     </a>TechAgg
                                 </li>
                                 <h2>React</h2>
                                 <li>
-                                    <a href="https://ask-libbie.netlify.com/" title="Link to Ask Libbie React App">
+                                    <a href="https://ask-libbie.netlify.app/" title="Link to Ask Libbie React App">
                                         <img src={askLibbiePreview} alt="Preview of Ask Libbie App"/>
                                     </a>Ask&nbsp;Libbie&nbsp;App
                                 </li>
                                 <li>
-                                    <a href="https://myreadsapp.netlify.com/" title="Link to My Reads React App">
+                                    <a href="https://myreadsapp.netlify.app/" title="Link to My Reads React App">
                                         <img src={myReadsPreview} alt="Preview of My Reads App"/>
                                     </a>My&nbsp;Reads&nbsp;App
                                 </li>
