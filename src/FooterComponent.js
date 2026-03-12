@@ -13,13 +13,13 @@ class FooterComponent extends Component {
                 {/*
                 Images courtesy of their respective entities (Gmail, Github, LinkedIn, and Twitter)
                 */}
-                    <a href="mailto:louart87@gmail.com">
+                    <a href="mailto:luisrodrigueziii.dev@gmail.com">
                         <img src={gmail} alt="Gmail logo"/>
                     </a>
                     <a href="https://github.com/lourod1987" target="_blank" rel="noopener noreferrer">
                         <img src={github} alt="GitHub logo"/>
                     </a>
-                    <a href="https://www.linkedin.com/in/lourod1987/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/luisriii/" target="_blank" rel="noopener noreferrer">
                         <img src={linkedin} alt="LinkedIn logo"/>
                     </a>
                     <a href="https://twitter.com/LuisARIII" target="_blank" rel="noopener noreferrer">

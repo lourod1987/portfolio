@@ -38,16 +38,6 @@ class HomeContainer extends Component {
                         <li><i className="fab fa-js-square js"></i></li>
                     </ul>
                     <section className="skillset">
-                        <div className="skill-html">
-                            <h2>Collaboration</h2>
-                            <ul className="projects">
-                                <li>
-                                    <a href="https://goo.gl/tiUrxH" title="Link to Collaboration project" target="_blank" rel="noopener noreferrer">
-                                        <img src={collabPreview} alt="Preview of Collaboration project"/>
-                                    </a>Grow with Google Scholar Project
-                                </li>
-                            </ul>
-                        </div>
                         <div className="skill-js">
                             <h2>JavaScript</h2>
                             <ul className="projects">
