@@ -533,12 +533,36 @@ ul {
   grid-gap: 20px;
   align-items: center;
   justify-items: center;
-}
-
-.about-me-text img {
-  grid-row-start: 1;
-  width: 400px;
-  margin: auto;
+  img {
+    grid-row-start: 1;
+    width: 400px;
+    margin: auto;
+  }
+  section {
+    background-color: white;
+    border-radius: 15px;
+    margin: 20px auto auto auto;
+    text-align: center;
+    padding: 20px;
+    box-shadow: -6px 4px 8px #000009;
+    width: 70%;
+    min-width: 280px;
+    h2 {
+      font-family: "Pridi", serif;
+      font-size: 30px;
+      padding-bottom: 20px;
+      margin: auto;
+    }
+  }
+  p {
+    font-family: "Asul", sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    width: 90%;
+    text-align: left;
+    margin: auto;
+    min-width: 230px;
+  }
 }
 
 .who-i-am {
@@ -548,45 +572,36 @@ ul {
 .workexp {
   grid-row-start: 1;
   grid-row-end: span 2;
+  div {
+    font-family: "Asul", sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    width: 90%;
+    text-align: left;
+    margin: auto;
+    min-width: 230px;
+  }
+  ul {
+    list-style: square;
+    padding-left: 24px;
+  }
+  h4 {
+    text-align: left;
+    font-size: 1.075em;
+    width:90%;
+    margin: auto;
+  }
 }
 
 .education {
   grid-row-start: 1;
   grid-row-end: span 2;
-}
-
-.about-me-text section {
-  background-color: white;
-  border-radius: 15px;
-  margin: 20px auto auto auto;
-  text-align: center;
-  padding: 20px;
-  box-shadow: -6px 4px 8px #000009;
-  width: 70%;
-  min-width: 280px;
-}
-
-.about-me-text section h2 {
-  font-family: "Pridi", serif;
-  font-size: 30px;
-  padding-bottom: 20px;
-  margin: auto;
-}
+} 
 
 h3 {
   padding-top: 20px;
   padding-bottom: 15px;
   margin: auto;
-}
-
-.about-me-text p {
-  font-family: "Asul", sans-serif;
-  font-size: 16px;
-  line-height: 28px;
-  width: 90%;
-  text-align: left;
-  margin: auto;
-  min-width: 230px;
 }
 
 figure {
