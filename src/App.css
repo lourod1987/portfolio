@@ -25,16 +25,8 @@ html {
   padding: 0;
 }
 
-.projects-button {
-  cursor: pointer;
-}
-
 a {
   color: #fcf7f7;  
-}
-
-.projects a {
-  padding: 10px;
 }
 
 a:active {
@@ -506,7 +498,7 @@ main a {
 
 main img {
   border-radius: 17%;
-  box-shadow: -8px 6px 15px #000009;
+  box-shadow: -4px 4px 12px #000009;
 }
 
 ul {
@@ -517,6 +509,20 @@ ul {
 .projects {
   margin: 1em 0;
   line-height: 2em;
+  a {
+    padding: 10px;
+  }
+  .project-label {
+    display: block;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  .repo-link a {
+    color:#000009;
+    &:hover {
+      color:#0059a8;
+    }
+  }
 }
 
 #leadin {

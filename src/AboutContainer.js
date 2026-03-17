@@ -98,7 +98,7 @@ class AboutContainer extends Component {
               <h3>University of Central Florida - Orlando, FL</h3>
               <p>Bachelor of Arts in Digital Media - Game Design, 2016</p>
               <p>
-                Coursework was intensive and invovled three compentencies; Art, design, and programming. I focused on art but the program instructs all students with expectation that you learn and have at least an intermediate mastery and understanding of all three areas.
+                Intensive coursework involved three competencies; Art, design, and programming. I focused on art but the program instructs all students with expectation that you learn and have at least an intermediate mastery and understanding of all three areas.
               </p>
               <h3>Valencia College - Kissimmee, FL</h3>
               <p>General A.A. (art focus), 2012</p>
