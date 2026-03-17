@@ -61,7 +61,8 @@ class HomeContainer extends Component {
                         <div className="skill-jquery">
                             <ul className="projects">
                                 <h2>React + Redux</h2>
-                                <li>🔧 Fix in Progress 🔧
+                                <li>
+                                    <span role="img" aria-label="Fix in progress">🔧 Fix in Progress 🔧</span>
                                     <a href="https://techagg.netlify.app/" title="Link to TechAgg React + Redux App">
                                         <img src={techAggPreview} alt="Preview of TechAgg App"/>
                                     </a>TechAgg
