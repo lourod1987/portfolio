@@ -252,11 +252,11 @@ main h3 {
     margin: 0.8em;
   }
   
-  main div.about-me-text {
+  /* main div.about-me-text {
     display: grid;
     grid-template: 900px 1570px 1fr / 1fr;
     grid-gap: 20px;
-  }
+  } */
   
   div.about-me-text p {
     min-width: 200px;
@@ -266,18 +266,18 @@ main h3 {
     min-width: 250px;
   }
   
-  body main div.about-me-text {
+  /* body main div.about-me-text {
     display: grid;
     grid-template: 250px 920px 1580px 1fr / 1fr;
     grid-gap: 5px;
-  }
+  } */
   
   main div.about-me-text img#loupic {
     width: 250px;
   }	
 }
 
-@media only screen and (min-width: 20em) and (max-width: 36em) {
+@media only screen and (max-width: 36em) {
 /*	mobile styles go here */
   div.for-bg {
     display: inline-grid;
@@ -312,10 +312,14 @@ main h3 {
     padding: 0;
     grid-column-start: 2;
   }
+
+  main {
+    padding: 0 !important;
+  }
   
   main .skillset {
     display: grid;
-    grid-template-rows: 730px 700px 1fr;
+    grid-template-rows: auto auto 1fr;
     grid-gap: 20px;
     justify-items: center;
   }
@@ -338,8 +342,10 @@ main h3 {
   
   main div.about-me-text {
     display: grid;
-    grid-template: 270px 800px 1320px 1fr / 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: 1fr;
     grid-gap: 5px;
+    padding-top: 25px;
 	}
   
   main div.about-me-text img {
@@ -353,11 +359,13 @@ main h3 {
   section.workexp {
     grid-row-start: 3;
     grid-column-start: 1;
+    grid-row-end: span 1;
   }
   
   section.education {
     grid-row-start: 4;
     grid-column-start: 1;
+    grid-row-end: span 1;
   }
 }
 
@@ -390,6 +398,11 @@ main h3 {
     grid-column-start: 1;
     grid-column-end: span 2;
   }
+  
+  main {
+    min-height: 1400px;
+  }
+
   
   main div.about-me-text {
     display: inline-grid;
@@ -425,12 +438,13 @@ main h3 {
   
   .skill-jquery {
     grid-row-start: 1;
-    grid-column-start: 2;
+    grid-column-start: 1;
   }
   
-  .skill-js {
-    grid-row-start: 2;
+  .skillset div.skill-js {
+    grid-row-start: 1;
     grid-column-start: 2;
+    padding: 15px;
   }
 }
 
@@ -577,7 +591,7 @@ main {
   background-size: cover;
   max-width: 100%;
   padding: 2em;
-  min-height: 600px;
+  /* min-height: 2500px; */
 }
 
 .intro-text {

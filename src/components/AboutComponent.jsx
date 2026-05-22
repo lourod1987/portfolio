@@ -3,7 +3,7 @@ import profilePic from '../assets/professional_profile.jpeg';
 function AboutComponent() {
   return (
     <div>
-      <main>
+      <main className='min-h-[5400px] sm:min-h-[600px]'>
         <div className="about-me-text">
           <figure>
             <img id="loupic" src={profilePic} alt="Professional headeshot of Luis"/>

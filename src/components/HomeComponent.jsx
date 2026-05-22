@@ -11,7 +11,7 @@ function HomeComponent() {
 
 
   return (
-    <main className="whole-body">
+    <main className="whole-body sm:min-h-[600px] min-h-[2500px]">
       <h2 className="intro-text">
         <strong>Welcome</strong>
       </h2>
