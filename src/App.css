@@ -330,6 +330,7 @@ main h3 {
   
   .skill-jquery {
     grid-row-start: 1;
+    padding: 10px !important;
   }
   
   .skill-html {
@@ -338,6 +339,14 @@ main h3 {
   
   .skill-js {
     grid-row-start: 2;
+    padding: 10px !important;
+  }
+
+  .skill-jquery span.project-label {
+    font-size: 16px;
+  }
+  .skill-js span.project-label {
+    font-size: 16px;
   }
   
   main div.about-me-text {
@@ -590,7 +599,7 @@ main {
   background: url("./assets/nasaNeutronStars_1920.jpg") no-repeat center center fixed;
   background-size: cover;
   max-width: 100%;
-  padding: 2em;
+  padding: 1em;
   /* min-height: 2500px; */
 }
 
@@ -721,7 +730,7 @@ ul {
     margin-top: 10px;
   }
   .repo-link a {
-    color:#000009;
+    color:dodgerblue;
     &:hover {
       color:#0059a8;
     }

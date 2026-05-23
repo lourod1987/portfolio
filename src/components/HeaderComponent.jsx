@@ -20,6 +20,9 @@ function HeaderComponent() {
           <li>
             <NavLink to="/about">About</NavLink>
           </li>
+          <li>
+            <NavLink to="/archive">Archive</NavLink>
+          </li>
           {/* <li>
               <a href="portfolio-page.html" title="Link to Portfolio Examples page">Portfolio</a>
           </li> */}
