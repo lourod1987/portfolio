@@ -8,7 +8,7 @@ function HomeComponent() {
 
 
   return (
-    <main className="whole-body sm:min-h-[600px] min-h-[2500px]">
+    <main className="whole-body sm:min-h-[600px] min-h-[1600px]">
       <div className='!pl-6 !pt-4'>
         <h2 className="intro-text">
           <strong>Welcome</strong>
