@@ -5,11 +5,11 @@ import techAggPreview from '../assets/techAggPreview.jpg';
 import spotifyCreationPlaylistPreview from '../assets/spotifyCreationPlaylistPreview.png';
 
 function HomeComponent() {
-
+  //set up styles object and an handleHover event that triggers styles object to display overlay on each project image notifying the user to click the image to view the project
 
   return (
     <main className="whole-body sm:min-h-[600px] min-h-[1600px]">
-      <div className='!pl-6 !pt-4'>
+      <div className='pl-6! pt-4!'>
         <h2 className="intro-text">
           <strong>Welcome</strong>
         </h2>
@@ -21,14 +21,14 @@ function HomeComponent() {
           <li><i className="fab fa-js-square js"></i></li>
         </ul>
       </div>
-      <section className="!mb-4 skillset">
-      <div className="skill-jquery">
+      <section className="mb-4! skillset">
+      <div className="skill-jquery p-10!">
+          <h2 className='font-bold underline text-xl'>React</h2>
           <ul className="projects">
-          <h2 className='font-bold'>React</h2>
             <li>
               <span>⭐ New ⭐</span>
               <a href="https://spotify-playlist-creation.netlify.app/authorize" title="Link Spotify Playlist Creation React App">
-                <img src={spotifyCreationPlaylistPreview} alt="Preview of Spotify Playlist Creation App"/>
+                <img className='block m-auto!' src={spotifyCreationPlaylistPreview} alt="Preview of Spotify Playlist Creation App"/>
               </a>
               <span class="project-label">Spotify&nbsp;Creation&nbsp;Playlist&nbsp;App</span>
               <span class="repo-link"><a href="https://github.com/lourod1987/jammming" target="_blank">Github Repository</a></span>
@@ -37,19 +37,19 @@ function HomeComponent() {
             <li>
               <span role="img" aria-label="Fix in progress">🔧 Improvements Incoming 🔧</span>
               <a href="https://techagg.netlify.app/" title="Link to TechAgg React + Redux App">
-                <img src={techAggPreview} alt="Preview of TechAgg App"/>
+                <img className='block m-auto!' src={techAggPreview} alt="Preview of TechAgg App"/>
               </a>
               <span class="project-label">TechAgg</span>
               <span class="repo-link"><a href="https://github.com/lourod1987/techagg" target="_blank">Github Repository</a></span>
             </li>
           </ul>
         </div>
-        <div className="skill-js">
-          <h2 className='font-bold'>JavaScript</h2>
+        <div className="skill-js p-10!">
+          <h2 className='font-bold underline text-xl'>JavaScript</h2>
           <ul className="projects">
             <li>
               <a href="https://lourod1987.github.io/Final-Frontierv2/" title="Link to Final Frontier made with OO JS">
-                <img src={finalFrontierPreview} alt="Preview of Final Frontier game"/>
+                <img className='block m-auto!' src={finalFrontierPreview} alt="Preview of Final Frontier game"/>
               </a>
               <span class="project-label">Final&nbsp;Frontier</span>
               <span class="repo-link"><a href="https://github.com/lourod1987/Final-Frontierv2" target="_blank">Github Repository</a></span>
@@ -57,7 +57,7 @@ function HomeComponent() {
             <li>
               <h2>jQuery</h2>
               <a href="https://lourod1987.github.io/mythic-concentration/" title="Link to Matching Game">
-                <img src={mythicPreview} alt="Preview of Pixel Art Maker project"/>
+                <img className='block m-auto!' src={mythicPreview} alt="Preview of Pixel Art Maker project"/>
               </a>
               <span class="project-label">Mythic&nbsp;Matching&nbsp;Game</span>
               <span class="repo-link"><a href="https://github.com/lourod1987/mythic-concentration" target="_blank">Github Repository</a></span>

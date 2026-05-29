@@ -214,13 +214,13 @@ html {
   padding: 0;
 }
 
-a {
+/* a {
   color: #fcf7f7;  
 }
 
 a:active {
   border: 1px dotted #fcf7f7;
-}
+} */
 
 main p,
 main li {
@@ -685,7 +685,6 @@ i {
 
 .skill-jquery li img {
   max-width: 95%;
-  margin-bottom: -10px;
 }
 
 .skill-html,
@@ -693,7 +692,7 @@ i {
 .skill-jquery {
   background-color: white;
   width: 25%;
-  padding: 2em 4em 3em 3em;
+  /* padding: 2em 4em 3em 3em; */
   color: black;
   border-radius: 15px;
   min-width: 240px;
@@ -721,13 +720,10 @@ ul {
 .projects {
   margin: 1em 0;
   line-height: 2em;
-  a {
-    padding: 10px;
-  }
   .project-label {
     display: block;
     font-size: 20px;
-    margin-top: 10px;
+    margin-top: 15px;
   }
   .repo-link a {
     color:dodgerblue;

@@ -13,31 +13,31 @@ function ArchiveComponent () {
         <strong>Archived Projects</strong>
       </h2>
       <section className="skillset">
-      <div className="skill-jquery">
+      <div className="skill-jquery p-10!">
+          <h2 className='font-bold underline text-xl'>React</h2>
           <ul className="projects">
-            <h2 className='font-bold'>React</h2>
             <li>
               <a href="https://ask-libbie.netlify.app/" title="Link to Ask Libbie React App">
-                <img src={askLibbiePreview} alt="Preview of Ask Libbie App"/>
+                <img className='block m-auto!' src={askLibbiePreview} alt="Preview of Ask Libbie App"/>
               </a>
               <span class="project-label">Ask&nbsp;Libbie&nbsp;App</span>
               <span class="repo-link"><a href="https://github.com/lourod1987/ask-libbie-frontend" target="_blank">Github Repository</a></span>
             </li>
             <li>
               <a href="https://myreadsapp.netlify.app/" title="Link to My Reads React App">
-                <img src={myReadsPreview} alt="Preview of My Reads App"/>
+                <img className='block m-auto!' src={myReadsPreview} alt="Preview of My Reads App"/>
               </a>
               <span class="project-label">My&nbsp;Reads&nbsp;App</span>
               <span class="repo-link"><a href="https://github.com/lourod1987/MyReads" target="_blank">Github Repository</a></span>
             </li>
           </ul>
         </div>
-        <div className="skill-js">
-          <h2 className='font-bold'>JavaScript</h2>
+        <div className="skill-js p-10!">
+          <h2 className='font-bold underline text-xl'>JavaScript</h2>
           <ul className="projects">
             <li>
               <a href="https://lourod1987.github.io/pixelart/" title="Link to Pixel Art Project made with jQuery">
-                <img src={pixelPreview} alt="Preview of Pixel Art Maker project"/>
+                <img className='block m-auto!' src={pixelPreview} alt="Preview of Pixel Art Maker project"/>
               </a>
               <span class="project-label">Pixel&nbsp;Art&nbsp;Project</span>
               <span class="repo-link"><a href="https://github.com/lourod1987/pixelart" target="_blank">Github Repository</a></span>
