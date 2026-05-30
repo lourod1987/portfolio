@@ -1,11 +1,40 @@
-// import { useState } from 'react';
+import { useState } from 'react';
 import finalFrontierPreview from '../assets/finalFrontierPreview.jpg';
 import mythicPreview from '../assets/mythicPreview.jpg';
 import techAggPreview from '../assets/techAggPreview.jpg';
 import spotifyCreationPlaylistPreview from '../assets/spotifyCreationPlaylistPreview.png';
 
 function HomeComponent() {
-  //set up styles object and an handleHover event that triggers styles object to display overlay on each project image notifying the user to click the image to view the project
+  const [opacity, setOpacity] = useState([0, 0, 0, 0]);
+
+  const overlay = {
+    position: 'absolute',
+    bottom: 0,
+    left: 16,
+    background: 'rgba(0, 0, 0, 0.5)', /* Black see-through */
+    color: '#f1f1f1',
+    width: '90%',
+    transition: '.5s ease',
+    opacity: 0,
+    fontSize: 18,
+    padding: 20,
+    textAlign: 'center',
+    borderRadius: 50,
+  };
+
+  const handleMouseEnter = (arrayPosition) => {
+    const newArray = [0, 0, 0, 0];
+    newArray[arrayPosition] = 1;
+    console.log(`NEW ARRAY: ${newArray}`);
+    setOpacity(newArray);
+  };
+
+  const handleMouseLeave = (arrayPosition) => {
+    const newArray = [0, 0, 0, 0];
+    newArray[arrayPosition] = 0;
+    console.log(`NEW ARRAY: ${newArray}`);
+    setOpacity(newArray);
+  };
 
   return (
     <main className="whole-body sm:min-h-[600px] min-h-[1600px]">
@@ -27,20 +56,36 @@ function HomeComponent() {
           <ul className="projects">
             <li>
               <span>⭐ New ⭐</span>
-              <a href="https://spotify-playlist-creation.netlify.app/authorize" title="Link Spotify Playlist Creation React App">
-                <img className='block m-auto!' src={spotifyCreationPlaylistPreview} alt="Preview of Spotify Playlist Creation App"/>
+              <a
+                href="https://spotify-playlist-creation.netlify.app/authorize"
+                title="Link Spotify Playlist Creation React App"
+                onMouseEnter={() => handleMouseEnter(0)}
+                onMouseLeave={() => handleMouseLeave(0)}
+              >
+                <div className='relative'>
+                  <img className='block m-auto!' src={spotifyCreationPlaylistPreview} alt="Preview of Spotify Playlist Creation App"/>
+                  <div className='overlay' style={{...overlay, opacity: opacity[0]}}>Click to View Project</div>
+                </div>
               </a>
-              <span class="project-label">Spotify&nbsp;Creation&nbsp;Playlist&nbsp;App</span>
-              <span class="repo-link"><a href="https://github.com/lourod1987/jammming" target="_blank">Github Repository</a></span>
+              <span className="project-label">Spotify&nbsp;Creation&nbsp;Playlist&nbsp;App</span>
+              <span className="repo-link"><a href="https://github.com/lourod1987/jammming" target="_blank">Github Repository</a></span>
             </li>
             <h2 className='font-bold'>React + Redux</h2>
             <li>
               <span role="img" aria-label="Fix in progress">🔧 Improvements Incoming 🔧</span>
-              <a href="https://techagg.netlify.app/" title="Link to TechAgg React + Redux App">
-                <img className='block m-auto!' src={techAggPreview} alt="Preview of TechAgg App"/>
+              <a
+                href="https://techagg.netlify.app/"
+                title="Link to TechAgg React + Redux App"
+                onMouseEnter={() => handleMouseEnter(1)}
+                onMouseLeave={() => handleMouseLeave(1)}
+              >
+                <div className='relative'>
+                  <img className='block m-auto!' src={techAggPreview} alt="Preview of TechAgg App"/>
+                  <div className='overlay' style={{...overlay, opacity: opacity[1]}}>Click to View Project</div>
+                </div>
               </a>
-              <span class="project-label">TechAgg</span>
-              <span class="repo-link"><a href="https://github.com/lourod1987/techagg" target="_blank">Github Repository</a></span>
+              <span className="project-label">TechAgg</span>
+              <span className="repo-link"><a href="https://github.com/lourod1987/techagg" target="_blank">Github Repository</a></span>
             </li>
           </ul>
         </div>
@@ -48,19 +93,35 @@ function HomeComponent() {
           <h2 className='font-bold underline text-xl'>JavaScript</h2>
           <ul className="projects">
             <li>
-              <a href="https://lourod1987.github.io/Final-Frontierv2/" title="Link to Final Frontier made with OO JS">
-                <img className='block m-auto!' src={finalFrontierPreview} alt="Preview of Final Frontier game"/>
+              <a
+                href="https://lourod1987.github.io/Final-Frontierv2/"
+                title="Link to Final Frontier made with OO JS"
+                onMouseEnter={() => handleMouseEnter(2)}
+                onMouseLeave={() => handleMouseLeave(2)}
+              >
+                <div className='relative'>
+                  <img className='block m-auto!' src={finalFrontierPreview} alt="Preview of Final Frontier game"/>
+                  <div style={{...overlay, opacity: opacity[2]}}>Click to View Project</div>
+                </div>
               </a>
-              <span class="project-label">Final&nbsp;Frontier</span>
-              <span class="repo-link"><a href="https://github.com/lourod1987/Final-Frontierv2" target="_blank">Github Repository</a></span>
+              <span className="project-label">Final&nbsp;Frontier</span>
+              <span className="repo-link"><a href="https://github.com/lourod1987/Final-Frontierv2" target="_blank">Github Repository</a></span>
             </li>
             <li>
               <h2>jQuery</h2>
-              <a href="https://lourod1987.github.io/mythic-concentration/" title="Link to Matching Game">
-                <img className='block m-auto!' src={mythicPreview} alt="Preview of Pixel Art Maker project"/>
+              <a
+                href="https://lourod1987.github.io/mythic-concentration/"
+                title="Link to Matching Game"
+                onMouseEnter={() => handleMouseEnter(3)}
+                onMouseLeave={() => handleMouseLeave(3)}
+              >
+                <div className='relative'>
+                    <img className='block m-auto!' src={mythicPreview} alt="Preview of Pixel Art Maker project"/>
+                    <div style={{...overlay, opacity: opacity[3]}}>Click to View Project</div>
+                </div>
               </a>
-              <span class="project-label">Mythic&nbsp;Matching&nbsp;Game</span>
-              <span class="repo-link"><a href="https://github.com/lourod1987/mythic-concentration" target="_blank">Github Repository</a></span>
+              <span className="project-label">Mythic&nbsp;Matching&nbsp;Game</span>
+              <span className="repo-link"><a href="https://github.com/lourod1987/mythic-concentration" target="_blank">Github Repository</a></span>
             </li>
           </ul>
         </div>
