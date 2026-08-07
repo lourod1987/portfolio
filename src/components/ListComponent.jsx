@@ -3,7 +3,7 @@ import { useState } from 'react';
 function ListComponent(props) {
   const { projects } = props;
   const projectsArrLength = new Array(projects[0].projects.length).fill(0);
-  const [opacity, setOpacity] = useState(projectsArrLength);
+  const [opacity, setOpacity] = useState(new Array(projects[0].projects.length).fill(0));
 
   const overlay = {
     position: 'absolute',
@@ -21,13 +21,13 @@ function ListComponent(props) {
   };
 
   const handleMouseEnter = (arrayPosition) => {
-    const newArray = projectsArrLength;
+    const newArray = new Array(projects[0].projects.length).fill(0);
     newArray[arrayPosition] = 1;
     setOpacity(newArray);
   };
 
   const handleMouseLeave = () => {
-    const newArray = projectsArrLength;
+    const newArray = new Array(projects[0].projects.length).fill(0);
     setOpacity(newArray);
   };
 
