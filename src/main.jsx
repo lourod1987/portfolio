@@ -15,6 +15,6 @@ createRoot(document.getElementById('root')).render(
         <Route path="/about" element={<AboutPage />} />
         <Route path="/archive" element={<ArchivePage />} />
       </Routes>
-    </StrictMode>,
+    </StrictMode>
   </BrowserRouter>
 )
