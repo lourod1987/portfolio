@@ -703,10 +703,14 @@ main a {
   text-decoration: none;
 }
 
-main .skillset img {
+/* main .skillset img {
   border-radius: 17%;
   box-shadow: -4px 4px 12px #e3def4;
 }
+
+main .skillset img:hover {
+  box-shadow: -4px 4px 32px #e3def4;
+} */
 
 ul {
   list-style: none;

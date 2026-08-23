@@ -12,7 +12,7 @@ function HomeComponent() {
           <strong>Welcome</strong>
         </h2> */}
         {/* <h2 id="leadin">Proficiencies in:</h2> */}
-        <div className='h-10'></div>
+        <div className='h-10 sm:h-0'></div>
         <SkillListComponent skills={skills} />
       </section>
       <section className="skillset">
