@@ -1,14 +1,11 @@
-import AboutComponent from "../components/AboutComponent";
-import HeaderComponent from "../components/HeaderComponent";
-import FooterComponent from "../components/FooterComponent";
-import '../App.css'
+import StandartPageLayout from './StandardPageLayout';
+import AboutComponent from '../components/AboutComponent';
+import '../App.css';
 
 function AboutPage() {
   return (
     <>
-      <HeaderComponent />
-      <AboutComponent />
-      <FooterComponent />
+      <StandartPageLayout page={<AboutComponent />} />
     </>
   );
 } 

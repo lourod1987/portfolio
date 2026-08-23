@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 function ListComponent(props) {
   const { projects } = props;
-  const projectsArrLength = new Array(projects[0].projects.length).fill(0);
+  // const projectsArrLength = new Array(projects[0].projects.length).fill(0);
   const [opacity, setOpacity] = useState(new Array(projects[0].projects.length).fill(0));
 
   const overlay = {

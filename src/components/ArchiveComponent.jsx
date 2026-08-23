@@ -5,7 +5,7 @@ function ArchiveComponent () {
 
   return (
     <main className="whole-body sm:min-h-[600px] min-h-[1200px]">
-      <h2 className="intro-text">
+      <h2 className="intro-text text-left w-2/3">
         <strong>Archived Projects</strong>
       </h2>
       <section className="skillset">

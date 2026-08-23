@@ -6,7 +6,7 @@ function AboutComponent() {
       <main className='min-h-[5400px] sm:min-h-[600px] !pb-6'>
         <div className="about-me-text">
           <figure>
-            <img id="loupic" src={profilePic} alt="Professional headeshot of Luis"/>
+            <img id="loupic" src={profilePic} alt="Professional headeshot of Luis" className='rounded-4xl' />
           </figure>
           <section className="who-i-am">
             <h2>Who I Am</h2>
@@ -88,15 +88,15 @@ function AboutComponent() {
           <section className="education">
             <h2>Education</h2>
             <h3>Udacity - Mountain View, CA</h3>
-            <p>Front-End Web Developer Nanodegree, 2018</p>
+            <p className='font-bold'>Front-End Web Developer Nanodegree, 2018</p>
             <p>Coursework took me from a basic understanding of HTML, CSS, and JavaScript to a mastery of the topics. I learned about best coding practices, OOP principles, responsive design, accessibility, and SEO.</p>
             <h3>University of Central Florida - Orlando, FL</h3>
-            <p>Bachelor of Arts in Digital Media - Game Design, 2016</p>
+            <p className='font-bold'>Bachelor of Arts in Digital Media - Game Design, 2016</p>
             <p>
               Intensive coursework involved three competencies; Art, design, and programming. I focused on art but the program instructs all students with expectation that you learn and have at least an intermediate mastery and understanding of all three areas.
             </p>
             <h3>Valencia College - Kissimmee, FL</h3>
-            <p>General A.A. (art focus), 2012</p>
+            <p className='font-bold'>General A.A. (art focus), 2012</p>
             <p>
               General education for college course requirements. Classes ranged from Humanities courses to College Algebra. To be noted I particularly focused on art courses in order to further develop my skills in art and design knowledge and practical application.
             </p>

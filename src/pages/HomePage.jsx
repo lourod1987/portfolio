@@ -1,14 +1,11 @@
-import HeaderComponent from "../components/HeaderComponent";
-import HomeComponent from "../components/HomeComponent";
-import FooterComponent from "../components/FooterComponent";
-import '../App.css'
+import StandartPageLayout from './StandardPageLayout';
+import HomeComponent from '../components/HomeComponent';
+import '../App.css';
 
 function HomePage() {
   return (
     <>
-      <HeaderComponent />
-      <HomeComponent />
-      <FooterComponent />
+      <StandartPageLayout page={<HomeComponent />} />
     </>
   );
 }

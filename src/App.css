@@ -206,13 +206,13 @@ html {
   box-sizing: border-box;
 }
 
-*,
+/* *,
 *:before,
 *:after {
   box-sizing: inherit;
   margin: 0;
   padding: 0;
-}
+} */
 
 /* a {
   color: #fcf7f7;  
@@ -224,13 +224,13 @@ a:active {
 
 main p,
 main li {
-  color: black; /*#fcf7f7;*/
+  color: #e3def4; /*#fcf7f7;*/
   font-family: "Asul", sans-serif;
 }
 
 main h2,
 main h3 {
-  color: black;
+  color: #e63946;
 }
 
 
@@ -292,6 +292,7 @@ main h3 {
   
   .for-bg .header h1 {
     font-size: 1.5em;
+    padding: 0;
   }
   
   .for-bg .header h2 {
@@ -510,19 +511,18 @@ main h3 {
   text-decoration: none;
   font-family: "Pridi", serif;
   text-align: center;
-  color: #000009;	
+  color: #e3def4;	
 }
 
 nav a:hover,
 li a:hover {
-  color: #000009;
+  color: #f69893;
   font-weight: 800;
   text-decoration: underline;
 }
 
-.for-bg,
-footer {
-  background-color: white;
+.for-bg, footer {
+  background-color: #000814;
 }
 
 .for-bg {
@@ -543,6 +543,8 @@ footer {
   font-family: "Gabriela", serif;
   font-size: 2em;
   margin-top: 15px;
+  color: #e3def4;
+  padding-left: 150px;
 }
 
 .header h2 {
@@ -550,7 +552,8 @@ footer {
   margin-left: 0;
   font-family: "Baumans", cursive;
   font-size: 1.88em;
-  padding-left: 190px;
+  padding-left: 180px;
+  color: #e3def4;
 }
 
 a img#logo {
@@ -558,7 +561,7 @@ a img#logo {
 }
 
 footer h2 {
-  color: #000009;
+  color: #e3def4;
   font-family:"Pridi", serif;
   font-size: 28px;
   font-weight: bold;
@@ -567,7 +570,7 @@ footer h2 {
   text-align: center;
 }
 
-#footer-imgs {
+/* #footer-imgs {
   display: inline-flex;
   flex-direction: row;
   justify-content: center;
@@ -579,13 +582,14 @@ footer h2 {
 }
 
 footer a:hover {
-  border: 2px solid #000009;
+  border: 2px solid #e3def4;
   border-radius: 20px;
-}
+} */
 
 footer p {
   margin-top: 10px;
   padding: 1.1em;
+  color: #e3def4;
 }
 
 
@@ -596,7 +600,7 @@ main {
   font-family: "Baumans", cursive;
   padding: 2em;
 /* Image courtesy of NASA note: this img version is edited by me for style*/
-  background: url("./assets/nasaNeutronStars_1920.jpg") no-repeat center center fixed;
+  background: url("./assets/Cassiopeia_A_supernova_remnant_chandra_webb_nasa_large.jpg") no-repeat center center fixed;
   background-size: cover;
   max-width: 100%;
   padding: 1em;
@@ -605,7 +609,7 @@ main {
 
 .intro-text {
   margin: auto;
-  color: azure;
+  color: #e3def4;
   font-size: 30px;
   margin-bottom: 40px;
   line-height: 45px;
@@ -613,26 +617,18 @@ main {
 
 .skill-shields {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
   align-items: center;
+  background-color: #000814;
+  border-radius: 10px;
+  max-width: 1200px;
 }
 
 i {
   font-size:4em; 
   float: left;
   margin: 20px 10px 40px 10px;
-}
-
-.html5 {
-  color: #ff4d0c;
-}
-
-.css {
-  color: #0059a8;
-}
-
-.js {
-  color: #efd528;
 }
 
 
@@ -690,7 +686,7 @@ i {
 .skill-html,
 .skill-js,
 .skill-jquery {
-  background-color: white;
+  background-color: #000814;
   width: 25%;
   /* padding: 2em 4em 3em 3em; */
   color: black;
@@ -707,9 +703,9 @@ main a {
   text-decoration: none;
 }
 
-main img {
+main .skillset img {
   border-radius: 17%;
-  box-shadow: -4px 4px 12px #000009;
+  box-shadow: -4px 4px 12px #e3def4;
 }
 
 ul {
@@ -753,7 +749,7 @@ ul {
     margin: auto;
   }
   section {
-    background-color: white;
+    background-color: #000814;
     border-radius: 15px;
     margin: 20px auto auto auto;
     text-align: center;
@@ -804,6 +800,8 @@ ul {
     font-size: 1.075em;
     width:90%;
     margin: auto;
+    text-decoration: underline;
+    color: #e3def4;
   }
 }
 
