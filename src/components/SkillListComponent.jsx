@@ -14,8 +14,8 @@ function SkillListComponent(props) {
 
   return (
     <>
-      <ul className='skill-shields mb-10 sm:mx-auto mt-10 m-8'>
-        <p class='block w-full pl-12 p-4 font-bold text-xl'>Frameworks, Languages, and Tools I use:</p>
+      <ul className='skill-shields mb-10 mx-4 sm:mx-auto sm:mt-10 sm:m-8 xl:max-w-2/3!'>
+        <p class='block w-full sm:pl-12 p-4 font-bold texl-lg sm:text-xl'>Frameworks, Languages, and Tools I use:</p>
         { skillList }
       </ul>
     </>

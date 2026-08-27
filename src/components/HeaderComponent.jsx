@@ -8,8 +8,8 @@ function HeaderComponent() {
       {/* <NavLink to="/">
           <img src={logo} alt="Luis Rodriguez Fire Breathing Dragon site logo" id="logo"/>
       </NavLink> */}
-      <h1>Luis A. Rodriguez III</h1>
-      <h2>Software Engineer</h2>
+      <h1 className='mt-4'>Luis A. Rodriguez III</h1>
+      <h2 className='xl:pl-10'>Software Engineer</h2>
     </header>
     <div className="nav-bar">
       <nav>

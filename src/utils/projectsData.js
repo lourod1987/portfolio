@@ -1,11 +1,11 @@
-import finalFrontierPreview from '../assets/finalFrontierPreview.jpg';
-import mythicPreview from '../assets/mythicPreview.jpg';
-import techAggPreview from '../assets/techAggPreview.jpg';
-import spotifyCreationPlaylistPreview from '../assets/spotifyCreationPlaylistPreview.png';
-import askLibbiePreview from '../assets/Ask-Libbie-App-preview.png';
-import myReadsPreview from '../assets/Book-Reads-App.png';
-import pixelPreview from '../assets/pixelArtPreview.jpg';
-import speedTestPreview from '../assets/typingSpeedTestPreview.jpg';
+import finalFrontierPreview from '../assets/finalFrontierPreview.webp';
+import mythicPreview from '../assets/mythicPreview.webp';
+import techAggPreview from '../assets/techAggPreview.webp';
+import spotifyCreationPlaylistPreview from '../assets/spotifyCreationPlaylistPreview.webp';
+import askLibbiePreview from '../assets/Ask-Libbie-App-preview.webp';
+import myReadsPreview from '../assets/Book-Reads-App.webp';
+import pixelPreview from '../assets/pixelArtPreview.webp';
+// import speedTestPreview from '../assets/typingSpeedTestPreview.png';
 
 export const homePageProjectsCol1 = [
   {
