@@ -12,14 +12,6 @@ html {
   padding: 0;
 } */
 
-/* a {
-  color: #fcf7f7;  
-}
-
-a:active {
-  border: 1px dotted #fcf7f7;
-} */
-
 main p,
 main li {
   color: #e3def4; /*#fcf7f7;*/
@@ -50,12 +42,6 @@ main h3 {
     margin: 0.8em;
   }
   
-  /* main div.about-me-text {
-    display: grid;
-    grid-template: 900px 1570px 1fr / 1fr;
-    grid-gap: 20px;
-  } */
-  
   div.about-me-text p {
     min-width: 200px;
   }
@@ -63,12 +49,6 @@ main h3 {
   main section {
     min-width: 250px;
   }
-  
-  /* body main div.about-me-text {
-    display: grid;
-    grid-template: 250px 920px 1580px 1fr / 1fr;
-    grid-gap: 5px;
-  } */
   
   main div.about-me-text img#loupic {
     width: 250px;
@@ -98,15 +78,6 @@ main h3 {
   
   img#logo {
     width: 90px;
-  }
-  
-  .for-bg .nav-bar li {
-    display: block;
-  }
-  
-  .for-bg .nav-bar {
-    padding: 0;
-    grid-column-start: 2;
   }
 
   main {
@@ -197,16 +168,6 @@ main h3 {
     padding: 0;
   }
   
-  header.header {
-    grid-column-start: 1;
-    grid-column-end: span 2;
-  }
-  
-  main {
-    min-height: 1400px;
-  }
-
-  
   main div.about-me-text {
     display: inline-grid;
     grid-template: 280px 815px 1fr/ 1fr 1fr;
@@ -254,10 +215,10 @@ main h3 {
 
 @media only screen and (min-width: 52em) and (max-width: 75em) {
 /*	desktop styles go here */
-  header.header {
+  /* header.header {
     grid-column-start: 1;
     grid-column-end: span 2;
-  }
+  } */
   
   main .about-me-text {
     display: inline-grid;
@@ -290,17 +251,9 @@ main h3 {
 ===============================*/
 .nav-bar {
   grid-column-start: 3;
-  min-width: 6%;
-  padding-right: 50px;	
 }
 
-.nav-bar li {
-	display: inline-grid;
-}
-
-.nav-bar a {
-  margin-top: 50px;
-  padding: 10px;
+.nav-bar ul li a {
   text-decoration: none;
   font-family: "Pridi", serif;
   text-align: center;
@@ -328,7 +281,6 @@ li a:hover {
 }
 
 .header {
-  grid-column-start: 2;
   font-size: 16px;
 }
 
@@ -358,22 +310,6 @@ footer h2 {
   text-align: center;
 }
 
-/* #footer-imgs {
-  display: inline-flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 100%;
-}
-
-#footer-imgs img {
-  margin: 1em;
-}
-
-footer a:hover {
-  border: 2px solid #e3def4;
-  border-radius: 20px;
-} */
-
 footer p {
   margin-top: 10px;
   padding: 1.1em;
@@ -392,7 +328,6 @@ main {
   background-size: cover;
   max-width: 100%;
   padding: 1em;
-  /* min-height: 2500px; */
 }
 
 .intro-text {

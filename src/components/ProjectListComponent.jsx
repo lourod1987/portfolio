@@ -42,8 +42,8 @@ function ProjectListComponent(props) {
           onMouseEnter={() => handleMouseEnter(i)}
           onMouseLeave={() => handleMouseLeave()}
         >
-          <div className='relative transition delay-200 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105'>
-            <img className='block min-w-50 lg:max-w-[300px] m-auto! shadow-[-4px_4px_12px_#e3def4] rounded-[17%] transition delay-150 duration-200 ease-in-out hover:shadow-[-4px_4px_20px_#e3def4]' src={project.projectLink.img} alt={project.projectLink.imgAlt} />
+          <div className='relative max-w-100 lg:max-w-75 xl:max-w-100 m-auto transition delay-200 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105'>
+            <img className='block min-w-50 shadow-[-4px_4px_12px_#e3def4] rounded-[17%] transition delay-150 duration-200 ease-in-out hover:shadow-[-4px_4px_20px_#e3def4]' src={project.projectLink.img} alt={project.projectLink.imgAlt} />
             <div className='overlay' style={{...overlay, opacity: opacity[i]}}>Click to View Project</div>
           </div>
       </a>

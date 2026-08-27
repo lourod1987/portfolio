@@ -3,7 +3,7 @@ import profilePic from '../assets/professional_profile.webp';
 function AboutComponent() {
   return (
     <div>
-      <main className='sm:min-h-[600px] !pb-10'>
+      <main className='pb-10!'>
         <div className="about-me-text">
           <figure>
             <img id="loupic" src={profilePic} alt="Professional headeshot of Luis" className='rounded-4xl ring-5 ring-[#e63946]' />
